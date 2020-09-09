@@ -16,6 +16,7 @@ O projeto está desenvolvido utilizando:
 - Express para a construção da aplicação e rotas
 - Nunjucks como view engine
 - extenso para a conversão de números para valores por extenso
+- Jquery para a formatação do valor digitado
 
 ## Como executar o projeto
 
