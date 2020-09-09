@@ -97,6 +97,10 @@ body .container form button:hover,
   opacity: 1;
 }
 
+#result-string::first-letter {
+  text-transform: capitalize;
+}
+
 @media (min-width: 600px) {
   body header .header-content {
     width: 100%;
