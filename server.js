@@ -23,7 +23,6 @@ app.get("/result", (req, res) => {
 
   //tira os espaços da string
   const amount = value.replace(/\s+/g, "");
-  console.log(amount);
   const currencyString = extenso(amount, { mode: "currency" });
 
   return res.render("result", { currencyString });
